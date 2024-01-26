@@ -1,0 +1,60 @@
+body{
+    background-color: #161616;
+}
+.header{
+    padding:20px;
+    color: aliceblue;
+    font-family: "Lexend Deca", sans-serif;
+    margin: auto;
+    max-width: max-content;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #161616;
+  font-family: 'Open Sans', sans-serif;
+}
+table {
+    max-width: max-content;
+    margin: auto;
+    margin-top: 10px;
+    
+  background: #212121;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  
+}
+th {
+ width: 300px;
+  border-bottom: 1px solid #364043;
+  color: antiquewhite;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #161616;
+}
+button{
+  color:blue;
+  text-decoration: none;
+}
